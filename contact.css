@@ -1,0 +1,76 @@
+body {
+    background: url('Russia-Travel-Guide.jpg') no-repeat center center fixed;
+    background-size: 100% ;
+    color: #333;
+}
+.contact {
+    margin: 14rem auto; /* Centered vertically with large margin */
+    padding: 2rem;
+    max-width: 600px; /* Slightly larger container for better form visibility */
+    background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Soft shadow for 3D effect */
+    text-align: center; /* Center align the content */
+    position: absolute;
+    top: 30rem; /* Space from the top of the page */
+    right: 25%; /* Position it towards the right */
+    left: 25%; /* Ensure it stays centered horizontally as well */
+}
+
+.contact h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase; /* Make the title all caps */
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+    gap: 0.5rem; /* Space between each form element */
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-size: 1rem;
+    color: #333;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box; /* Include padding in the element's width */
+    transition: border 0.3s ease-in-out;
+}
+
+input:focus {
+    border-color: #4CAF50; /* Green border when input is focused */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    padding: 1rem 2rem;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green when hovered */
+}
+
+button:active {
+    background-color: #388e3c; /* Darker green on button click */
+}
